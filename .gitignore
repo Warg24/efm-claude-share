@@ -1,0 +1,30 @@
+
+*.vsidx
+.vs/Hawk/v17/.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+/DRM
+ExternalFM/Debug/ExternalFM.log
+*.aps
+*.tlog
+/ExternalFM/x64
+/HawkCore
+/HawkCockpit
+*.json
+.vs/Hawk/v17/DocumentLayout.json
+/.vs
+/.vs
+.vs/Hawk/v17/DocumentLayout.json
+.vs/Hawk/v17/DocumentLayout.backup.json
+.vs/Hawk/v17/DocumentLayout.backup.json
+.vs/Hawk/v17/DocumentLayout.json
+
+# Local-only VRA-data variant: the VRA team's data. Do not commit or share
+# without their permission (see CLAUDE.md).
+/ExternalFM/VRA/
+/build_vra.bat
+/bin_vra/
+/ExternalFM/obj_vra/

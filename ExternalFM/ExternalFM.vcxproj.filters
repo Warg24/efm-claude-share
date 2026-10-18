@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ExternalFM.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Aerodynamics\AerodyneFM.cpp">
+      <Filter>Aerodynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FuelSystem.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Actuators\Actuators.cpp">
+      <Filter>Actuators</Filter>
+    </ClCompile>
+    <ClCompile Include="Airframe\Airframe.cpp">
+      <Filter>Airframe</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricSystem\ElectricSystem.cpp">
+      <Filter>ElectricSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\APU.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Adour.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Hydraulics\HydraulicSystem.cpp">
+      <Filter>Hydraulics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Landing Gear\LandingGear.cpp">
+      <Filter>Landing Gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Suspension\Suspension.cpp">
+      <Filter>Suspension</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalFM.h" />
+    <ClInclude Include="ExternalFM_API.h" />
+    <ClInclude Include="ED_FM_Utility.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UtilityFunctions.h" />
+    <ClInclude Include="Aerodynamics\AeroData.h">
+      <Filter>Aerodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Aerodynamics\AerodyneFM.h">
+      <Filter>Aerodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Engine\FuelSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Actuators\Actuators.h">
+      <Filter>Actuators</Filter>
+    </ClInclude>
+    <ClInclude Include="Airframe\Airframe.h">
+      <Filter>Airframe</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricSystem\ElectricSystem.h">
+      <Filter>ElectricSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Airframe\ConstantData.h">
+      <Filter>Airframe</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\APU.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Adour.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Hydraulics\HydraulicSystem.h">
+      <Filter>Hydraulics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cockpit\enums.h">
+      <Filter>Cockpit</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="Engine\EngineData.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Landing Gear\LandingGear.h">
+      <Filter>Landing Gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Suspension\Suspension.h">
+      <Filter>Suspension</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Aerodynamics">
+      <UniqueIdentifier>{5c4ff4ef-ae66-4264-8fdf-51319defe376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{562a6ca1-191b-4046-a30d-cc6612fe3d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b622b2dd-546e-4780-9e42-fe7fd280d74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actuators">
+      <UniqueIdentifier>{fac57da5-0f77-4f58-8942-5e6a74555d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Airframe">
+      <UniqueIdentifier>{0ee4a24f-b2bd-4ea5-b26a-03b2da5d9181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ElectricSystem">
+      <UniqueIdentifier>{9113fba9-ede1-475a-9412-7391bc7a3197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hydraulics">
+      <UniqueIdentifier>{3af96932-0d9e-4499-b8b7-9e56aacb3c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cockpit">
+      <UniqueIdentifier>{e577e58c-9a62-49bb-a13c-8bf337f38a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landing Gear">
+      <UniqueIdentifier>{5eb3de72-106b-4407-a16c-086ecdd1c5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Suspension">
+      <UniqueIdentifier>{9886282a-67dd-41e9-aa7b-d1fae704396d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExternalFM.rc" />
+  </ItemGroup>
+</Project>
